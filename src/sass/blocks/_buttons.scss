@@ -1,0 +1,138 @@
+.btn {
+  position: relative;
+  vertical-align: top;
+  height: 60px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $color-violet;
+  background-color: $color-violet;
+  color: #fff;
+  font-family: $font-family;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  outline: 0;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  .arrow {
+    animation: arr 0.5s infinite ease-in-out alternate;
+  }
+    span {
+      margin-left: 12px;
+    }
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: 0;
+    background-color: #575A89;
+    border-color: #575A89;
+  }
+  
+  &:hover,
+  &:focus {
+    outline: 0;
+  }
+  
+  &:active {
+    outline: 0;
+    text-decoration: none;
+    background-color: #fff;
+    color: $color-violet;
+    border-color: $color-violet;
+  }
+}
+
+.btn_disabled {
+  border-color: $color-gray-40;
+  background-color: $color-gray-10;
+  color: $color-gray-60;
+  cursor: default;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: $color-gray-40;
+    background-color: $color-gray-10;
+    color: $color-gray-60;
+  }
+}
+
+.btn_standart {
+  border-color: $color-blue-30;
+  background-color: $color-blue-30;
+  color: $color-white;
+
+  &:hover,
+  &:focus {
+    border-color: $color-blue-50;
+    background-color: $color-blue-50;
+  }
+
+  &:active {
+    border-color: darken($color-blue-50, 5%);
+    background-color: darken($color-blue-50, 5%);
+  }
+}
+
+
+.btn_attach {
+  position: relative;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  outline: 0;
+  color: $color-blue-30;
+  font-family: $font-family_bold;
+  overflow: hidden;
+  cursor: pointer;
+  
+  &:hover {
+    color: $color-blue-50;
+  }
+
+  & > input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  &.btn_disabled > input[type=file] {
+    display: none;
+  }
+}
+
+.btn_upload {
+  overflow: hidden;
+
+  & > input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  &.btn_disabled > input[type=file] {
+    display: none;
+  }
+}

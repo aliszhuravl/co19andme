@@ -1,0 +1,32 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  position: relative;
+  min-width: 320px;
+  width: 100%;
+  min-height: 100%;
+  background-color: #fff;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.page__inner {
+  @extend .layout-inner;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: transparent;
+}
+
+.page__item {
+  @extend .layout-padding;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: transparent;
+}
