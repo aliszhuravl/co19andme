@@ -31,15 +31,15 @@
 .arrow {
   display: block;
   position: relative;
-  width: 30px;
+  width: 24px;
   height: 1px;
   background-color: #fff;
   content: '';
     &:after {
       right: 0;
-      top: -3px;
-      width: 7px;
-      height: 7px;
+      top: -2px;
+      width: 5px;
+      height: 5px;
       position: absolute;
       content: '';
       border-color: #fff;
@@ -47,6 +47,28 @@
       border-top: 1px solid #fff;
       transform: rotate(135deg);
     }
+}
+
+.page__section {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.about {
+  padding: 0 110px !important;
+    .page__item_body {
+      padding-bottom: 50px;
+      border-bottom: 1px solid #CDDAE7;
+    }
+}
+
+.body_noborder {
+  border-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.last_section {
+  margin-bottom: 0;
 }
 
 @keyframes arr {

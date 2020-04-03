@@ -1,9 +1,11 @@
 .btn {
   position: relative;
   vertical-align: top;
-  height: 60px;
+  //height: 60px;
   padding: 10px 30px;
-  border-radius: 30px;
+  //border-radius: 30px;
+  border-radius: 8px;
+  height: 48px;
   border-width: 1px;
   border-style: solid;
   border-color: $color-violet;
@@ -49,6 +51,11 @@
     color: $color-violet;
     border-color: $color-violet;
   }
+}
+
+.btn_simple {
+  text-align: center;
+  justify-content: center;
 }
 
 .btn_disabled {

@@ -1,0 +1,16 @@
+.logo_carousel {
+  width: 100%;
+  padding: 60px 0;
+    &__inner {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+        .logo_item {
+          height: 75px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+    }
+}

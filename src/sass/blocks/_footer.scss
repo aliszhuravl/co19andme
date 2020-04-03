@@ -1,12 +1,45 @@
 .footer {
   @extend .layout-padding;
-  background-color: $color-gray-20;
+  background-color: #fff;
+  width: 100%;
 }
 
 .footer__inner {
   @extend .layout-inner;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 50px;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+    p {
+      display: flex;
+      align-items: center;
+      opacity: 0.9;
+    }
+    p:first-child {
+      margin-right: 12px;
+    }
+}
+
+.cop_mobile {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  p {
+    display: flex;
+    align-items: center;
+    opacity: 0.9;
+  }
+  p:first-child {
+    margin-right: 12px;
+  }
 }

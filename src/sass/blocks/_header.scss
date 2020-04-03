@@ -14,16 +14,18 @@
   align-items: center;
   padding: 0 40px;
   justify-content: space-between;
-    .right {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-        p {
-          margin-right: 12px;
-          font-size: 14px;
-          line-height: 14px;
-        }
-    }
+}
+
+.powered {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  p {
+    margin-right: 12px;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 5px;
+  }
 }
 
 .mb {
