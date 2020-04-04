@@ -1,11 +1,12 @@
 .footer {
-  @extend .layout-padding;
+  padding: 0 40px;
   background-color: #fff;
   width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .footer__inner {
-  @extend .layout-inner;
   width: 100%;
   display: flex;
   flex-direction: row;

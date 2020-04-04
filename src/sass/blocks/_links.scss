@@ -39,3 +39,10 @@
     text-decoration: none;
   }
 }
+
+.link_disabled {
+  margin-left: 4px;
+  cursor: pointer;
+  color: $font-color_dark;
+  border-bottom: 1px solid $font-color_dark;
+}

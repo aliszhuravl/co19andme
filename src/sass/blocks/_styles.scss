@@ -71,6 +71,10 @@
   margin-bottom: 0;
 }
 
+.slider_arrows {
+  display: none;
+}
+
 @keyframes arr {
   from {width: 30px;}
   to {width: 40px;}

@@ -63,6 +63,10 @@
                         </div>
                     </div>
                 </div>
+                <div class="slider_arrows">
+                    <div class="arrow_left"><div class="arrow" id="btn_prev"></div></div>
+                    <div class="arrow_right"><div class="arrow" id="btn_next"></div></div>
+                </div>
             </div>
         </div>
         <div class="page__inner">
@@ -156,7 +160,7 @@
         <div class="page__inner">
             <section class="page__item about section">
                 <div class="page__item_header header_simple">
-                    <div class="left"><h2>Co19 & Me — help you at home or at work</h2></div>
+                    <div class="left"><h2 class="no_marg">Co19 & Me — help you at home or at work</h2></div>
                 </div>
                 <div class="page__item_body body_noborder">
                     <div class="pib_tile">
@@ -226,7 +230,7 @@
             </div>
             <div class="copyright">
                 <p>Made in <img src="img/swiss.svg" alt="#"></p>
-                <p>2020 © All rights reserverd | Impressum</p>
+                <p>2020 © All rights reserverd | <span class="link_disabled call_popup">Impressum</span></p>
             </div>
             <div class="powered">
                 <p class="by">By</p>
@@ -235,9 +239,38 @@
         </div>
         <div class="cop_mobile">
                 <p>Made in <img src="img/swiss.svg" alt="#"></p>
-                <p>2020 © All rights reserverd | Impressum</p>
+                <p>2020 © All rights reserverd | <span class="link_disabled call_popup">Impressum</span></p>
         </div>
     </footer>
+    <div class="popup_wrapper" id="popup">
+        <div class="popup">
+            <div class="pop_up-header">
+                <h2>Impressum</h2>
+                <div class="cross close_popup">
+                    <img src="img/cross.svg" alt="#">
+                </div>
+            </div>
+            <div class="pop_up-body">
+                <div class="pop_item">
+                    <div class="icon"><img src="img/pin.svg" alt="#"></div>
+                    <p>Swiss Autonomous Valley, Bahnhofstrase 1, 8001 Zürich</p>
+                </div>
+
+                <div class="pop_item">
+                    <div class="icon"><img src="img/person.svg" alt="#"></div>
+                    <p>Geschäftsführung Tobias Pforr</p>
+                </div>
+
+                <div class="pop_item">
+                    <div class="icon"><img class="i_img" src="img/i.svg" alt="#"></div>
+                    <div class="pop_p">
+                        <p>Weitere Infos</p>
+                        <p class="p_light">More info here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery/jquery-3.1.1.min.js"><\/script>')</script>
