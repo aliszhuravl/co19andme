@@ -34,14 +34,17 @@
       display: flex;
       border-bottom: 1px solid #CDDAE7;
       margin-bottom: 50px;
-      align-items: center;
+      align-items:flex-end;
       justify-content: space-between;
+      padding-bottom: 50px;
         h2 {
-          margin-bottom: 50px;
+          margin-bottom: 0;
+          line-height: 44px;
         }
     }
   .header_simple {
     border: 0;
+    padding-bottom: 0;
   }
     &_body {
       width: 100%;
