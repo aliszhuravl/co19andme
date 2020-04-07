@@ -46,3 +46,14 @@
   color: $font-color_dark;
   border-bottom: 1px solid $font-color_dark;
 }
+
+.link_simple {
+  text-transform: none;
+  font-family: $font-family_medium;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}

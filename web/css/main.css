@@ -827,7 +827,7 @@ h3 {
 }
 
 .pib_tile .short_section {
-	width: 30%;
+	width: 50%;
 }
 
 .pib_tile__block {
@@ -1081,6 +1081,17 @@ h3 {
 	cursor: pointer;
 	color: #3f3d56;
 	border-bottom: 1px solid #3f3d56;
+}
+
+.link_simple {
+	font-family: 'DinProMedium', 'Arial', serif;
+	font-size: 18px;
+	text-transform: none;
+}
+
+a {
+	text-decoration: none;
+	background-color: transparent;
 }
 
 .layout-inner,
@@ -1359,7 +1370,7 @@ h3 {
 }
 
 .hero__inner .hero_text .description {
-	font-size: 18px;
+	font-size: 16px;
 	max-width: 520px;
 	margin-bottom: 32px;
 	opacity: .7;
@@ -1706,15 +1717,15 @@ h3 {
 .popup {
 	position: absolute;
 	z-index: 9;
-	top: 25%;
+	top: 50%;
 	right: 50%;
 	width: 100%;
 	max-width: 600px;
 	padding: 40px;
 	transition: all .4s cubic-bezier(0, .93, .77, 1.47) .3s;
 	transition-delay: .1s;
-	-webkit-transform: translateX(0%);
-	transform: translateX(0%);
+	-webkit-transform: translate(0%, -50%);
+	transform: translate(0%, -50%);
 	opacity: 0;
 	background-color: #fff;
 }
@@ -1761,7 +1772,7 @@ h3 {
 .popup .pop_item p {
 	font-family: 'DinProMedium', 'Arial', serif;
 	font-size: 16px;
-	max-width: 70%;
+	max-width: 100%;
 }
 
 .popup .pop_item .p_light {
@@ -1787,8 +1798,8 @@ h3 {
 .visible_popup .popup {
 	transition: all .4s cubic-bezier(0, .93, .77, 1.47) .3s;
 	transition-delay: .3s;
-	-webkit-transform: translateX(50%);
-	transform: translateX(50%);
+	-webkit-transform: translate(50%, -50%);
+	transform: translate(50%, -50%);
 	opacity: 1;
 }
 
@@ -2440,6 +2451,12 @@ h3 {
 
 .footer {
 	padding: 0;
+}
+
+.popup {
+	top: 50%;
+	-webkit-transform: translate(50%, -50%) !important;
+	transform: translate(50%, -50%) !important;
 }
 
 }
