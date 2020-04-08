@@ -81,7 +81,7 @@ window.onload = function() {
 
 })(jQuery);
 $(document).ready(function() {
-    $('.logo_carousel__inner').slick({
+    $('.run_carousel').slick({
         infinite: true,
         slidesToShow: 7,
         slidesToScroll: 1,

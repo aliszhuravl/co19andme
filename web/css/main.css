@@ -940,7 +940,7 @@ h3 {
 	width: 100%;
 	max-width: 1280px;
 	margin: 0 auto;
-	padding: 20px 0;
+	padding: 32px 0;
 	border-bottom: 1px solid #cddae7;
 	justify-content: center;
 	align-items: center;
@@ -1734,12 +1734,13 @@ a {
 	display: flex;
 	width: 100%;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .logo_carousel__inner .logo_item {
 	display: flex;
 	height: 75px;
+	margin-right: 32px;
 	align-items: center;
 	justify-content: center;
 }
@@ -2251,6 +2252,23 @@ a {
 	width: 33.333%;
 }
 
+.hero__inner .hero_text .description {
+	display: none;
+}
+
+.hero__inner {
+	justify-content: flex-start;
+}
+
+.hero__inner .hero_text {
+	margin-top: 140px;
+	margin-bottom: 0;
+}
+
+.text_mobile {
+	display: block;
+}
+
 }
 
 @media (max-width: 900px) and (max-height: 500px) {
@@ -2533,10 +2551,6 @@ a {
 	transform: translate(50%, -50%) !important;
 }
 
-.text_mobile {
-	display: block;
-}
-
 .page__item_body .left img {
 	width: 100%;
 }
@@ -2555,6 +2569,15 @@ a {
 .pib_button .btn {
 	width: 100%;
 	max-width: 100%;
+}
+
+.hero__inner {
+	justify-content: center;
+}
+
+.hero__inner .hero_text {
+	margin-top: 0;
+	margin-bottom: 120px;
 }
 
 }
