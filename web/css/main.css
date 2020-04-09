@@ -953,6 +953,13 @@ h3 {
 	justify-content: center;
 }
 
+.footer__top p img {
+	display: block;
+	width: 14px;
+	height: 14px;
+	margin-left: 4px;
+}
+
 .form__item {
 	font-size: 13px;
 	display: inline-block;
@@ -1107,6 +1114,10 @@ h3 {
 	font-family: 'DinProMedium', 'Arial', serif;
 	font-size: 18px;
 	text-transform: none;
+}
+
+.link_simple img {
+	display: block;
 }
 
 a {
@@ -1428,11 +1439,6 @@ a {
 	padding: 0 110px !important;
 }
 
-.about .page__item_body {
-	padding-bottom: 50px;
-	border-bottom: 1px solid #cddae7;
-}
-
 .body_noborder {
 	padding-bottom: 0 !important;
 	border-bottom: 0 !important;
@@ -1727,20 +1733,22 @@ a {
 
 .logo_carousel {
 	width: 100%;
-	padding: 60px 0;
+	margin-bottom: 20px;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid #ccc;
 }
 
 .logo_carousel__inner {
 	display: flex;
 	width: 100%;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 .logo_carousel__inner .logo_item {
 	display: flex;
 	height: 75px;
-	margin-right: 32px;
+	margin-right: 40px;
 	align-items: center;
 	justify-content: center;
 }

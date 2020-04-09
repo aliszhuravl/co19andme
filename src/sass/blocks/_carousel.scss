@@ -1,19 +1,21 @@
 .logo_carousel {
   width: 100%;
-  padding: 60px 0;
+  padding: 0 0 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
     &__inner {
       width: 100%;
       display: flex;
       align-items: center;
       //justify-content: space-between;
-      justify-content: center;
+      justify-content: flex-start;
         .logo_item {
           height: 75px;
           display: flex;
           align-items: center;
           justify-content: center;
 
-          margin-right: 32px;
+          margin-right: 40px;
             img {
               max-width: 120px;
             }
