@@ -4,3 +4,4 @@
 //= parts/_scrolling.js
 //= parts/_slick.js
 //= parts/_popup.js
+//= parts/_dropdown.js
