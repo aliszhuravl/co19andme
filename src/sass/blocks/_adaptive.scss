@@ -202,10 +202,6 @@
   .btn .arrow {
     position: static;
   }
-  .arrow:after {
-    position: absolute;
-    top: 8px;
-  }
   .by {
     display: none;
   }
@@ -438,6 +434,13 @@
   }
   .header__inner .right .lang {
     margin-right: 20px;
+  }
+  .btn_simple {
+    padding: 10px 30px;
+    width: 100%;
+  }
+  .btn_a {
+    width: 100%;
   }
 }
 

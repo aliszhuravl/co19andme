@@ -36,6 +36,8 @@
   height: 1px;
   background-color: #fff;
   content: '';
+  top: 50%;
+  transform: translateY(-50%);
     &:after {
       right: 0;
       top: -2px;
@@ -47,6 +49,16 @@
       border-left: 1px solid #fff;
       border-top: 1px solid #fff;
       transform: rotate(135deg);
+    }
+}
+
+.slider_arrows .arrow {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+    &:after {
+      top: -2px;
     }
 }
 
