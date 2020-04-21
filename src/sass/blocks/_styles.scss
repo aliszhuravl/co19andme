@@ -30,8 +30,9 @@
 
 .arrow {
   display: block;
-  position: relative;
+  position: absolute;
   width: 24px;
+  left: calc(100% - 70px);
   height: 1px;
   background-color: #fff;
   content: '';

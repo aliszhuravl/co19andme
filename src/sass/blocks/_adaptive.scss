@@ -148,7 +148,7 @@
   .slider_arrows {
     width: 100%;
     padding: 0 40px;
-    margin-bottom: 60px;
+    margin: 24px 0;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -192,9 +192,20 @@
   .text_mobile {
     display: block;
   }
+  .logo_carousel__inner .logo_item {
+    margin-right: 0;
+    padding: 0 40px;
+  }
 }
 
 @media (max-width: 640px) {
+  .btn .arrow {
+    position: static;
+  }
+  .arrow:after {
+    position: absolute;
+    top: 8px;
+  }
   .by {
     display: none;
   }

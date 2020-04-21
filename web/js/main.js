@@ -91,6 +91,10 @@ $(document).ready(function() {
         nextArrow: $('#btn_next'),
         responsive: [
             {
+                breakpoint: 2550,
+                settings: "unslick"
+            },
+            {
                 breakpoint: 1200,
                 settings: {
                     slidesToShow: 4,
