@@ -930,6 +930,10 @@ h3 {
 	margin-right: 12px;
 }
 
+.copyright .link_disabled {
+	margin-right: 4px;
+}
+
 .cop_mobile {
 	display: none;
 	width: auto;
@@ -969,6 +973,41 @@ h3 {
 	width: 14px;
 	height: 14px;
 	margin-left: 4px;
+}
+
+.madeinch {
+	display: flex;
+	margin-left: 4px;
+	align-items: center;
+	justify-content: center;
+}
+
+.madeinch img {
+	width: 14px;
+	height: 14px;
+}
+
+.madein_mobile {
+	display: none;
+}
+
+.social {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.social a {
+	margin-right: 32px;
+}
+
+.social a:last-child {
+	margin-right: 0;
+}
+
+.social a:hover {
+	opacity: .7;
 }
 
 .form__item {
@@ -2310,6 +2349,10 @@ a {
 .logo_carousel__inner .logo_item {
 	margin-right: 0;
 	padding: 0 40px;
+}
+
+.madein_mobile {
+	display: flex;
 }
 
 }
